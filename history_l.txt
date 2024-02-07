@@ -1,0 +1,18 @@
+
+  Id CommandLine                                                                                                                                                   
+  -- -----------                                                                                                                                                   
+   1 try { . "c:\Users\Luis\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+   2 history > history_l.txt                                                                                                                                       
+   3 npm test                                                                                                                                                      
+   4 history > history_l.txt                                                                                                                                       
+   5 npm test                                                                                                                                                      
+   6 npm test                                                                                                                                                      
+   7 history > history_l.txt                                                                                                                                       
+   8 npm test                                                                                                                                                      
+   9 npm test                                                                                                                                                      
+  10 npm test                                                                                                                                                      
+  11 history > history_l.txt                                                                                                                                       
+  12 git commit -am "Add failing test for next Module A functionality"                                                                                             
+  13 git push origin main                                                                                                                                          
+
+
