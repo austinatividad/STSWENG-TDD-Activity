@@ -17,3 +17,9 @@ exports.createPost = (obj, next) => {
         next(err, post)
     }) 
 }
+
+exports.updatePost = (obj, next) => {
+    Post.findOneAndUpdate(obj, {title: obj.title + " (updated)"}).then(function(err, post) {
+        next(err, post)
+    })
+}
