@@ -23,3 +23,10 @@ exports.updatePost = (obj, next) => {
         next(err, post)
     })
 }
+
+exports.findPost = (obj, next) => {
+    //i implemented it using only title as the search criteria
+    Post.findOne(obj.title).then(function(err, post) {
+        next(err, post)
+    })
+}
